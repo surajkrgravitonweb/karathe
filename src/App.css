@@ -1,0 +1,67 @@
+.text-size{
+    font-size: 1rem;
+}
+.icon-size{
+    font-size: 0.8rem;
+    color: red;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: rgb(245, 245, 245);
+    border: 1px solid lightgray;
+    /* width: 30%; */
+    width: 20rem;
+    cursor: pointer;
+}
+.box-parent{
+    /* display: grid; */
+    justify-content: center;
+    align-items: center;
+}
+
+.membership-card{
+ /* width: 30%; */
+ width: 20rem;
+ background-color: white;
+ margin: 10px;
+ padding: 0px 0px 10px 0px;
+}
+
+.happy_client_box{
+    background-color: lightgray;
+    /* width: 30%; */
+    width: 20rem;
+    margin-top: 20px;
+}
+
+
+/* ============privacy policy=============== */
+.privacy_policy{
+    background-color: lightgray;
+    min-height: 100vh;
+}
+.privacy_policy_link:hover{
+    /* color: rgb(94, 1, 1); */
+    color: red !important;
+    text-decoration: underline !important;
+}
+
+/*  */
+.carousel_image{
+    height: 50rem !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel_image {
+        height: 30rem !important;
+    }
+}
+
+.custom-Margin{
+margin-bottom: 50px;
+
+}
