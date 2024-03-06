@@ -58,6 +58,9 @@ import Blog from "./Components/Blog";
 import Navbar from "./common/Navbar";
 import Footer from "./common/Footer";
 import Gallery from "./Components/Gallery";
+import Photo from "./Components/Gallery/Photo";
+import Video from "./Components/Gallery/Video";
+import Media from "./Components/Gallery/Media";
 
 
 
@@ -77,6 +80,12 @@ const App = () => {
       <Route path="/blog" element={<Blog/>}/>
       <Route path="/footer" element={<Footer/>}/>
       <Route path="/gallery" element={<Gallery/>}/>
+      <Route path="/images" element={<Photo/>}/>
+      <Route path="/video" element={<Video/>}/>
+      <Route path="/media" element={<Media/>}/>
+
+
+
 
 
 

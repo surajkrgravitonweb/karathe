@@ -83,57 +83,49 @@ const Home = () => {
           ></button>
         </div>
         <div className="carousel-inner">
-      <div className="carousel-item active">
-        <img
-          src={bg2}
-          className="d-block w-100 carousel_image"
-          
-          alt="..."
-        />
-        <div className="carousel-caption d-none d-md-block">
-          <h2>Dynamic Karate Adventures</h2>
-          <h4></h4>
-          <p>
-          Embark on thrilling karate journeys, mastering techniques and self-discovery.
-          </p>
-          <Link to="/contact">
-            <button type="button" className="btn btn-danger">
-              BOOK NOW
-            </button>
-          </Link>
-        </div>
-      </div>
+          <div className="carousel-item active">
+            <img src={bg19} className="d-block w-100 carousel_image" alt="..." />
+            <div className="carousel-caption d-none d-md-block">
+              <h2>Dynamic Karate Adventures</h2>
+              <h4></h4>
+              <p>
+                Embark on thrilling karate journeys, mastering techniques and
+                self-discovery.
+              </p>
+              <Link to="/contact">
+                <button type="button" className="btn btn-danger">
+                  BOOK NOW
+                </button>
+              </Link>
+            </div>
+          </div>
 
-      <div className="carousel-item">
-        <img
-          src={bg3}
-          className="d-block w-100 carousel_image"
-          
-          alt="..."
-        />
-        <div className="carousel-caption d-none d-md-block">
-          <h5>Mastering Karate Excellence</h5>
-          <p>
-          Unleash your potential through disciplined karate training and achieve greatness.
-          </p>
-        </div>
-      </div>
+          <div className="carousel-item">
+            <img src={bg3} className="d-block w-100 carousel_image" alt="..." />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Mastering Karate Excellence</h5>
+              <p>
+                Unleash your potential through disciplined karate training and
+                achieve greatness.
+              </p>
+            </div>
+          </div>
 
-      <div className="carousel-item">
-        <img
-          src={bg19}
-          className="d-block w-100 carousel_image"
-       
-          alt="..."
-        />
-        <div className="carousel-caption d-none d-md-block">
-          <h5 className="text-danger">Karate Wisdom Unleashed</h5>
-          <p className="text-danger">
-          Unlock the power of karate philosophy, fostering strength and inner harmony.
-          </p>
+          <div className="carousel-item">
+            <img
+              src={bg2}
+              className="d-block w-100 carousel_image"
+              alt="..."
+            />
+            <div className="carousel-caption d-none d-md-block">
+              <h5 className="text-danger">Karate Wisdom Unleashed</h5>
+              <p className="text-danger">
+                Unlock the power of karate philosophy, fostering strength and
+                inner harmony.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
         <button
           className="carousel-control-prev"
           type="button"
@@ -163,13 +155,16 @@ const Home = () => {
       <div className="row my-5 mx-auto w-100 sm:px-5 about">
         <div className="col-12 col-md-6 mt-1 ms-2 ">
           <h2>
-            WELCOME TO <span className="text-danger">MARTIAL ARTS</span>
+            WELCOME TO{" "}
+            <span className="text-danger">
+              Kaizen Karate-do Association India
+            </span>
           </h2>
           <p className="text-secondary">
-            Welcome to the world of martial arts, where discipline, respect, and
-            skill converge. Discover the ancient traditions and modern
-            techniques that empower both mind and body on this transformative
-            journey.
+            Welcome to the world of Kaizen Karate-do Association India , where
+            discipline, respect, and skill converge. Discover the ancient
+            traditions and modern techniques that empower both mind and body on
+            this transformative journey.
           </p>
           <p>
             Embark on a path of self-discovery, mastering techniques that forge
@@ -233,8 +228,6 @@ const Home = () => {
           <img src={about4} />
         </div>
       </div>
-
- 
 
       <section className=" container my-5">
         <div className="row d-flex justify-content-center">
@@ -357,87 +350,6 @@ const Home = () => {
         </div>
       </section>
 
-      <p className="display-6 fw-bold text-center">
-        Our <span className="text-danger fw-bold">Trainers</span>
-      </p>
-      <p className="text-center font-italic">
-        Join our martial art club and be healthy{" "}
-      </p>
-      <div className="row container-fluid container-lg justify-content-center mx-auto">
-        <div className="col-12 col-sm-6 col-lg-3 box m-2">
-          {/* <img src="../Images/Teams/1 (1).jpg" className=" w-100 my-2" /> */}
-          <img src={team1} className=" w-100 my-2" />
-          <h3 className="mt-3 ms-3">
-          <span className="text-danger fw-bold ">Suraj Kumar</span> |{" "}
-            </h3>
-            {/* <p className="text-secondary fst-italic ms-2 my-0">01:00 pm - 03:00 pm</p> */}
-            <p className="text-secondary fst-italic ms-2">1st Dan Black Belt</p>
-        </div>
-        {/* <div className="col-1"></div> */}
-        <div className="col-12 col-sm-6 col-lg-3 box m-2">
-          {/* <img src="../Images/Teams/2.jpg" className=" w-100 my-2" /> */}
-          <img src={team2} className=" w-100 my-2" />
-          <h3 className="mt-3 ms-2">
-            <span className="text-danger fw-bold">Arjun Sharma</span> |
-          </h3>
-       
-          <p className="text-secondary fst-italic ms-2 my-0">
-          (Kokutsu Dachi)
-          </p>
-          <p className="text-secondary fst-italic ms-2">
-          Back Stance
-          </p>
-        </div>
-        {/* <div className="col-1"></div> */}
-        <div className="col-12 col-sm-6 col-lg-3 box m-2">
-          <img src={team3} className=" w-100 my-2" />
-          <h3 className="mt-3">
-            <span className="text-danger fw-bold">Vikram Singh</span> | 
-          </h3>
-          <p className="text-secondary fst-italic my-0">(Tsuru Ashi Dachi)</p>
-          <p className="text-secondary fst-italic">
-          "Crane Stance" 
-          </p>
-        </div>
-        {/* <div className="col-1"></div> */}
-        {/* </div> */}
-
-        {/* <div className="row container mx-auto"> */}
-        <div className="col-12 col-sm-6 col-lg-3  box m-2">
-          <img src={team4} className=" w-100 my-2" />
-          <h3 className="mt-3">
-            <span className="text-danger fw-bold">Siddharth Reddy </span> | 
-          </h3>
-          <p className="text-secondary fst-italic my-0">(Tsuru Ashi Dachi)</p>
-          <p className="text-secondary fst-italic">
-          1st Dan Black Belt
-          </p>
-        </div>
-        {/* <div className="col-1"></div> ms-3*/}
-        <div className="col-12 col-sm-6 col-lg-3 box m-2">
-          <img src={team3} className=" w-100 my-2" />
-          <h3 className="mt-3">
-            <span className="text-danger fw-bold">Aditya Gupta</span> | 
-          </h3>
-          <p className="text-secondary fst-italic my-0">"Front Stance"</p>
-          <p className="text-secondary fst-italic">
-          1st Dan Black Belt
-          </p>
-        </div>
-        {/* <div className="col-1"></div> */}
-        <div className="col-12 col-sm-6 col-lg-3 box m-2">
-          <img src={team2} className=" w-100 my-2" />
-          <h3 className="mt-3">
-            <span className="text-danger fw-bold">Mukesh Rathore</span> | 
-          </h3>
-          <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
-          <p className="text-secondary fst-italic">
-          1st Dan Black Belt
-          </p>
-        </div>
-        {/* <div className="col-1"></div> */}
-      </div>
-
       <div className="row mt-5 container mx-auto">
         <div className="col-12 col-md-5 ms-md-2 ">
           {/* <img src="../Images/Bg/bg19.jpg" width="450" width="400" height="350" /> */}
@@ -466,10 +378,10 @@ const Home = () => {
         "Capturing Moments in Pixels: Explore Our Vibrant Photo Gallery for a
         Visual Feast of Memories."
       </p>
-      <div className="row mx-3">
-        <div className="col-12 col-md-4 col-lg-3 px-0 border border-white mb-3">
-          <img src={gallery1} width="400" height="200" />
-        </div>
+      <div className="row mx-auto ">
+      <div className="col-12 col-md-4 col-lg-3 px-0 border border-white mb-3 ">
+    <img src={gallery1} width="400" height="200" />
+  </div>
         <div className="col-12 col-md-4 col-lg-3 px-0 border border-white mb-3">
           <img src={gallery3} width="400" height="200" />
         </div>
@@ -509,208 +421,6 @@ const Home = () => {
         </div>
       </div>
 
-      <p className="display-6 fw-bold text-center mt-5">
-        MEMBERSHIP <span className="text-danger fw-bold">PACKAGES</span>
-      </p>
-      {/* <p className="text-center"></p> */}
-      <div
-        className="row px-5 py-5 d-flex justify-content-center"
-        style={{ backgroundColor: "lightgray" }}
-      >
-        <div className="col-12 col-sm-6 col-lg-3  membership-card ">
-          {/* <img src="../Images/Pricing/1.jpg" className=" w-100" /> */}
-          <img src={price1} className=" w-100" />
-          <div>
-            <h3 className="bg-dark text-light text-center ms-auto my-0 pt-3">
-              BEGINNER
-            </h3>
-            <p className="bg-dark text-light text-center ms-auto my-0 pb-3">
-              TRAINING WITH JON ISMAIL
-            </p>
-          </div>
-          <p className="text-center border-bottom mt-3">Free Consultation</p>
-          <p className="text-center border-bottom">Fitness Assessment</p>
-          <p className="text-center border-bottom">24 Hour Gym</p>
-          <p className="text-center border-bottom">Free Consultation</p>
-          <p className="text-center border-bottom">$35* / MONTHLY</p>
-          <div className="text-center">
-            {/* <button className="btn btn-danger">SIGN UP</button> */}
-          </div>
-        </div>
-        {/* <div className="col-1">
-        </div> */}
-        <div className="col-12 col-sm-6 col-lg-3 membership-card">
-          {/* <img src="../Images/Pricing/2.jpg" height={160} className="w-100" /> */}
-          <img src={price2} height={160} className="w-100" />
-          <div>
-            <h3 className="bg-dark text-light text-center ms-auto my-0 pt-3">
-              BEGINNER
-            </h3>
-            <p className="bg-dark text-light text-center ms-auto my-0 pb-3">
-              TRAINING WITH JON ISMAIL
-            </p>
-          </div>
-          <p className="text-center border-bottom mt-3">Free Consultation</p>
-          <p className="text-center border-bottom">Fitness Assessment</p>
-          <p className="text-center border-bottom">24 Hour Gym</p>
-          <p className="text-center border-bottom">Free Consultation</p>
-          <p className="text-center border-bottom">$35* / MONTHLY</p>
-          <div className="text-center">
-            {/* <button className="btn btn-dark">SIGN UP</button> */}
-          </div>
-        </div>
-        {/* <div className="col-1"> */}
-        {/* </div> */}
-        <div className="col-12 col-sm-6 col-lg-3 membership-card">
-          {/* <img src="../Images/Pricing/3.jpg" className="w-100" /> */}
-          <img src={price3} className="w-100" />
-          <div>
-            <h3 className="bg-dark text-light text-center ms-auto my-0 pt-3">
-              BEGINNER
-            </h3>
-            <p className="bg-dark text-light text-center ms-auto my-0 pb-3">
-              TRAINING WITH JON ISMAIL
-            </p>
-          </div>
-          <p className="text-center border-bottom mt-3">Free Consultation</p>
-          <p className="text-center border-bottom">Fitness Assessment</p>
-          <p className="text-center border-bottom">24 Hour Gym</p>
-          <p className="text-center border-bottom">Free Consultation</p>
-          <p className="text-center border-bottom">$35* / MONTHLY</p>
-          <div className="text-center">
-            {/* <button className="btn btn-danger">SIGN UP</button> */}
-          </div>
-        </div>
-        {/* <div className="col-1">
-        </div> */}
-      </div>
-
-      <section className="container">
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-10 col-xl-8 text-center">
-            <h3 class="mt-5">
-              <span className="text-danger fw-bold">
-                OUR HAPPY CLIENTS SAYS
-              </span>
-            </h3>
-            <p class="mb-4 pb-2 mb-md-5 pb-md-0">
-              "Client Testimonials: Raving Reviews Showcase Our Commitment to
-              Excellence and Client Satisfaction"
-            </p>
-          </div>
-        </div>
-
-        <div class="row text-center justify-content-center">
-          <div class=" col-12 col-sm-6 col-lg-3 mb-5 mb-md-0 happy_client_box py-2 mx-2">
-            <div class="d-flex justify-content-center mb-4">
-              {/* <img src="../Images/Gallery/gallery-md1.jpg" alt="" */}
-              <img
-                src="https://vocalvideo.com/resources/content/images/2021/11/what-to-say-in-a-testimonial-video.jpeg"
-                alt=""
-                class="rounded-circle shadow-1-strong"
-                width="150"
-                height="150"
-              />
-            </div>
-            <h5 class="mb-3">Alka Goutam</h5>
-            <h6 class="text-primary mb-3">karate</h6>
-            <p class="px-xl-3">
-              <i class="fas fa-quote-left pe-2"></i>"Exceptional service,
-              exceeded expectations. Grateful for their expertise and
-              dedication. A truly satisfied customer."
-            </p>
-            <ul class="list-unstyled d-flex justify-content-center mb-0">
-              <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
-              </li>
-              <li>
-                <i class="fas fa-star-half-alt fa-sm text-warning"></i>
-              </li>
-            </ul>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-md-0 happy_client_box py-2 mx-2">
-            <div class="d-flex justify-content-center mb-4">
-              {/* <img src="../Images/Gallery/gallery-md2.jpg" */}
-              <img
-                src="https://images.unsplash.com/photo-1609902726285-00668009f004?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDQzfHxoYXBweXxlbnwwfHx8fDE2MTU4OTMxMDU&ixlib=rb-1.2.1&q=80&w=2000"
-                class="rounded-circle shadow-1-strong"
-                width="150"
-                height="150"
-              />
-            </div>
-            <h5 class="mb-3">Sanjay Samson</h5>
-            <h6 class="text-primary mb-3">karate</h6>
-            <p class="px-xl-3">
-              <i class="fas fa-quote-left pe-2"></i>"Outstanding results, timely
-              delivery. Professionalism and quality define their work. Highly
-              recommend their services."
-            </p>
-            <ul class="list-unstyled d-flex justify-content-center mb-0">
-              <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
-              </li>
-            </ul>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-3 mb-0 happy_client_box py-2 mx-2">
-            <div class="d-flex justify-content-center mb-4">
-              {/* <img src="../Images/Gallery/gallery-md3.jpg" */}
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-0CIdYSO4wPWIYxRrhqBRu82ehTnwkncsdNXwYjvjxg&s"
-                class="rounded-circle shadow-1-strong"
-                width="150"
-                height="150"
-              />
-            </div>
-            <h5 class="mb-3">Daisy Dutta</h5>
-            <h6 class="text-primary mb-3">Karate</h6>
-            <p class="px-xl-3">
-              <i class="fas fa-quote-left pe-2"></i>"Impressed with personalized
-              attention. Reliable, efficient, and customer-centric. A joy to
-              work with. Highly recommended!"
-            </p>
-            <ul class="list-unstyled d-flex justify-content-center mb-0">
-              <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
-              </li>
-              <li>
-                <i class="far fa-star fa-sm text-warning"></i>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-   
       {/* <div className="mt-3 ">
         <button type="button" class="btn btn-danger w-100">
           <img src={clients1} width="200" height="100"></img>

@@ -31,6 +31,18 @@ const Footer = () => {
                 Martial art emphasizing striking, kicking, and defensive
                 techniques for self-defense and discipline
               </p>
+              <a className="navbar-brand text-size my-auto text-white fw-bold">
+              <i
+                className="fa-solid fa-phone icon-size my-auto  "
+                style={{
+                  fontSize: "16px",
+                  width: "20px",
+                  height: "20px",
+                }}
+              ></i>{" "}
+              +91 9832480087
+            </a>
+            <p> kaizenkarateindia@gmail.com</p>
 
               <a
                 href="https://play.google.com/store/apps/details?id=com.karate.kaizenkarateindia"
